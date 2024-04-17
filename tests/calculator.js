@@ -14,7 +14,7 @@ describe('calculator tests', function () {
 
 
 
-        //  browser.get('https://juliemr.github.io/protractor-demo/');//test
+        //  browser.get('https://juliemr.github.io/protractor-demo/');//tes
 
         //var first = element(by.model('first'));
         //first.sendKeys('123');
