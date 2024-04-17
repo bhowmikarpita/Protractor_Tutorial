@@ -53,7 +53,7 @@ exports.config = {
     }));
 
     var fs = require('fs-extra');
-//Adding screenshot for failed tcs in HTML2 report 
+//Adding screenshot for failed tcs in HTML2  report 
 fs.emptyDir('screenshots/', function (err) {
         console.log(err);
     });
