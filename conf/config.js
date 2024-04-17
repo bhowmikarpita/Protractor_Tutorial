@@ -44,7 +44,7 @@ exports.config = {
     }));
     //HTML report
     jasmine.getEnv().addReporter(reporter);
-    //HTML reporter 2 
+    //HTML reporter2 
     var jasmineReporters = require('jasmine-reporters');
     jasmine.getEnv().addReporter(new jasmineReporters.JUnitXmlReporter({
       consolidateAll: true,
